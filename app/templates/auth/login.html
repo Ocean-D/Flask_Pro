@@ -21,7 +21,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 flex-vertical personal-detail">
-                        <form action="" method="post">
+                        <form action="{{ url_for(web.login) }}" method="post">
                             <input style="width:100%" id="email" name="email" type="text"
                                    placeholder="邮箱"
                                    class="none-input"

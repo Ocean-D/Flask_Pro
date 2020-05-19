@@ -5,21 +5,38 @@ class BookViewModel():
         self.publisher = book['publisher']
         self.author = '、'.join(book['author'])
         self.image = book['image']
-        self.price = book['price']
+        self.price = '￥'+book['price'] if book['price'] else book['price']
         self.summary = book['summary']
         self.pages = book['pages']
+        self.isbn = book['isbn']
+        self.pubdate = book['pubdate']
+        self.binding = book['binding']
+        # self.title = book['title']
+        # self.author = '、'.join(book['author'])
+        # self.publisher = book['publisher']
+        # self.price = book['price']
+        # self.image = book['image']
+        # self.summary = book['summary']
+        # self.pages = book['pages']
+
+
 
     @property
     def intro(self):
-        intros = filter(lambda x: True if x else False,[self.author,self.publisher,self.price])
-
+        intros = filter(lambda x:True if x else False,[self.author,self.publisher,self.price])
         return '/'.join(intros)
+    # @property
+    # def intro(self):
+    #     intros = filter(lambda x: True if x else False,[self.author,self.publisher,self.price])
+    #
+    #     return '/'.join(intros)
 
 class BookCollection():
     def __init__(self):
         self.total = 0
         self.books = []
         self.keyword = ''
+
 
     def fill(self,yushu_book,keyword):
         self.total = yushu_book.total

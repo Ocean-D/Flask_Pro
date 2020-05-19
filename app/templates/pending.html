@@ -23,9 +23,9 @@
                         <div><span>发起日期：</span><span>{{ drift.date }}</span></div>
                         <div>
                             {% if drift.you_are == 'requester' %}
-                                <span>向他请求：</span>
+                                <span>向他请求：</span> {#书籍的赠送者#}
                             {% else %}
-                                <span>请求者：</span>
+                                <span>请求者：</span> {#书籍的索要者 #}
                             {% endif %}
                             <span>{{ drift.operator }}</span>
                         </div>

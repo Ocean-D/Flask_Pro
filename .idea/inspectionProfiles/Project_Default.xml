@@ -5,6 +5,9 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="app.models.user.Base" />
+          <option value="app.forms.auth.User" />
+          <option value="int.fromtimestamp" />
+          <option value="str.in_" />
         </list>
       </option>
     </inspection_tool>

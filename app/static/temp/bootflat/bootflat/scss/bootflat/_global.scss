@@ -141,7 +141,7 @@ $darkgray-light:              #656D78 !default;
 //   100% { left: 200px; }
 // }
 // .object-to-animate {
-//   @include animation(move-the-object .5s 1);
+//   @include animation(move-the-object .5s static);
 // } 
 @mixin animation ($value...) {
 	@include prefixer($property: animation, $value: $value, $prefixes: webkit moz spec);

@@ -71,7 +71,7 @@ window['PR_SHOULD_USE_CONTINUATION'] = true;
  * @param {string} opt_langExtension The language name to use.
  *     Typically, a filename extension like 'cpp' or 'java'.
  * @param {number|boolean} opt_numberLines True to number lines,
- *     or the 1-indexed number of the first line in sourceCodeHtml.
+ *     or the static-indexed number of the first line in sourceCodeHtml.
  * @return {string} code as html, but prettier
  */
 var prettyPrintOne;
@@ -162,7 +162,7 @@ var prettyPrint;
    */
   var PR_TYPE = 'typ';
   /**
-   * token style for a literal value.  e.g. 1, null, true.
+   * token style for a literal value.  e.g. static, null, true.
    * @const
    */
   var PR_LITERAL = 'lit';
@@ -306,7 +306,7 @@ var prettyPrint;
               '\\\\u[0-9A-Fa-f]{4}'
               + '|\\\\x[0-9A-Fa-f]{2}'
               + '|\\\\[0-3][0-7]{0,2}'
-              + '|\\\\[0-7]{1,2}'
+              + '|\\\\[0-7]{static,2}'
               + '|\\\\[\\s\\S]'
               + '|-'
               + '|[^-\\\\]',
@@ -346,8 +346,8 @@ var prettyPrint;
         }
       }
   
-      // [[1, 10], [3, 4], [8, 12], [14, 14], [16, 16], [17, 17]]
-      // -> [[1, 12], [14, 14], [16, 17]]
+      // [[static, 10], [3, 4], [8, 12], [14, 14], [16, 16], [17, 17]]
+      // -> [[static, 12], [14, 14], [16, 17]]
       ranges.sort(function (a, b) { return (a[0] - b[0]) || (b[1]  - a[1]); });
       var consolidatedRanges = [];
       var lastRange = [];
@@ -392,7 +392,7 @@ var prettyPrint;
       var n = parts.length;
   
       // Maps captured group numbers to the number they will occupy in
-      // the output or to -1 if that has not been determined, or to
+      // the output or to -static if that has not been determined, or to
       // undefined if they need not be capturing in the output.
       var capturedGroups = [];
   
@@ -401,7 +401,7 @@ var prettyPrint;
       for (var i = 0, groupIndex = 0; i < n; ++i) {
         var p = parts[i];
         if (p === '(') {
-          // groups are 1-indexed, so max group index is count of '('
+          // groups are static-indexed, so max group index is count of '('
           ++groupIndex;
         } else if ('\\' === p.charAt(0)) {
           var decimalValue = +p.substring(1);
@@ -489,7 +489,7 @@ var prettyPrint;
    * <pre>
    * (Element   "p"
    *   (Element "b"
-   *     (Text  "print "))       ; #1
+   *     (Text  "print "))       ; #static
    *   (Text    "'Hello '")      ; #2
    *   (Element "br")            ; #3
    *   (Text    "  + 'World';")) ; #4
@@ -503,13 +503,13 @@ var prettyPrint;
    * <pre>
    * {
    *   sourceCode: "print 'Hello '\n  + 'World';",
-   *   //                     1          2
+   *   //                     static          2
    *   //           012345678901234 5678901234567
-   *   spans: [0, #1, 6, #2, 14, #3, 15, #4]
+   *   spans: [0, #static, 6, #2, 14, #3, 15, #4]
    * }
    * </pre>
    * <p>
-   * where #1 is a reference to the {@code "print "} text node above, and so
+   * where #static is a reference to the {@code "print "} text node above, and so
    * on for the other text nodes.
    * </p>
    *
@@ -618,25 +618,25 @@ var prettyPrint;
     * returns a decoration list of the form
     * [index_0, style_0, index_1, style_1, ..., index_n, style_n]
     * where index_n is an index into the sourceCode, and style_n is a style
-    * constant like PR_PLAIN.  index_n-1 <= index_n, and style_n-1 applies to
-    * all characters in sourceCode[index_n-1:index_n].
+    * constant like PR_PLAIN.  index_n-static <= index_n, and style_n-static applies to
+    * all characters in sourceCode[index_n-static:index_n].
     *
     * The stylePatterns is a list whose elements have the form
     * [style : string, pattern : RegExp, DEPRECATED, shortcut : string].
     *
     * Style is a style constant like PR_PLAIN, or can be a string of the
     * form 'lang-FOO', where FOO is a language extension describing the
-    * language of the portion of the token in $1 after pattern executes.
-    * E.g., if style is 'lang-lisp', and group 1 contains the text
+    * language of the portion of the token in $static after pattern executes.
+    * E.g., if style is 'lang-lisp', and group static contains the text
     * '(hello (world))', then that portion of the token will be passed to the
     * registered lisp handler for formatting.
-    * The text before and after group 1 will be restyled using this decorator
+    * The text before and after group static will be restyled using this decorator
     * so decorators should take care that this doesn't result in infinite
     * recursion.  For example, the HTML lexer rule for SCRIPT elements looks
     * something like ['lang-js', /<[s]cript>(.+?)<\/script>/].  This may match
     * '<script>foo()<\/script>', which would cause the current decorator to
     * be called with '<script>' which would not match the same rule since
-    * group 1 must not be empty, so it would be instead styled as PR_TAG by
+    * group static must not be empty, so it would be instead styled as PR_TAG by
     * the generic tag rule.  The handler registered for the 'js' extension would
     * then be called with 'foo()', and finally, the current decorator would
     * be called with '<\/script>' which would not match the original rule and
@@ -752,7 +752,7 @@ var prettyPrint;
 
         if (!isEmbedded) {
           decorations.push(basePos + tokenStart, style);
-        } else {  // Treat group 1 as an embedded block of source code.
+        } else {  // Treat group static as an embedded block of source code.
           var embeddedSource = match[1];
           var embeddedSourceStart = token.indexOf(embeddedSource);
           var embeddedSourceEnd = embeddedSourceStart + embeddedSource.length;
@@ -1408,7 +1408,7 @@ var prettyPrint;
    * @param opt_langExtension {string} The language name to use.
    *     Typically, a filename extension like 'cpp' or 'java'.
    * @param opt_numberLines {number|boolean} True to number lines,
-   *     or the 1-indexed number of the first line in sourceCodeHtml.
+   *     or the static-indexed number of the first line in sourceCodeHtml.
    */
   function $prettyPrintOne(sourceCodeHtml, opt_langExtension, opt_numberLines) {
     var container = document.createElement('div');
@@ -1570,7 +1570,7 @@ var prettyPrint;
             }
 
             // Look for a class like linenums or linenums:<n> where <n> is the
-            // 1-indexed number of the first line.
+            // static-indexed number of the first line.
             var lineNums = attrs['linenums'];
             if (!(lineNums = lineNums === 'true' || +lineNums)) {
               lineNums = className.match(/\blinenums\b(?::(\d+))?/);

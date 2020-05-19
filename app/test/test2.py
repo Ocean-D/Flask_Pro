@@ -1,4 +1,4 @@
-import threading,time,cymysql
+import threading,time
 
 def worker():
     time.sleep(5)

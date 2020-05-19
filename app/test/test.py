@@ -7,6 +7,7 @@ app = Flask(__name__)
 #请求上下文 请求 Request
 #Flask AppContext
 #Request RequestContext
+#app_context()返回一个应用上下文，使用with就可以我们不需要手动的推入栈
 ctx = app.app_context()
 ctx.push()
 a = current_app
@@ -20,3 +21,8 @@ ctx.pop()
 #
 # with open('fielname') as f:
 #     f.read()
+import re
+
+str1 = '(百度)www.baidu.com'
+r = re.match('\(百度\)(.*)',str1)
+print(r.group(1))

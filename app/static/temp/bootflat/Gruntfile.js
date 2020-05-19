@@ -41,7 +41,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'js/site.min.js': [
-            'js/jquery-1.10.1.min.js',
+            'js/jquery-static.10.1.min.js',
             'js/bootstrap.min.js',
             '<%= meta.defaultPath %>/js/icheck.min.js',
             '<%= meta.defaultPath %>/js/jquery.fs.stepper.min.js',

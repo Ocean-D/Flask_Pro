@@ -1,12 +1,4 @@
-from flask import request
+from app.test.test4 import get_secret_key
 
-def parse_request():
-    a = request
-    pass
-
-
-parse_request()
-
-
-s = '  123456'
-s.strip()
+get_secret_key()
+print(1111)

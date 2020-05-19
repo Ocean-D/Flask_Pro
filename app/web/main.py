@@ -1,4 +1,9 @@
+from flask_login import login_required, current_user
+
+from app.models.gift import Gift
+from app.viwe_models.book import BookViewModel
 from . import web
+from flask import render_template
 
 
 __author__ = '七月'
@@ -6,9 +11,13 @@ __author__ = '七月'
 
 @web.route('/')
 def index():
-    pass
+    recent_gifts = Gift.recent()
+    books = [BookViewModel(gift.book) for gift in recent_gifts]
+    return render_template('index.html',recent=books)
 
 
 @web.route('/personal')
+@login_required
 def personal_center():
-    pass
+    return render_template('personal.html', user=current_user.summary)
+

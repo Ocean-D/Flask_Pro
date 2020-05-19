@@ -7,9 +7,11 @@
 #     salt = ''.join(sa)
 #     print(salt)
 import os
+
 def get_secret_key(num=1):
     result = os.urandom(num)
     print(result)
+    return result
 
-get_secret_key()
+# get_secret_key(32)
 
