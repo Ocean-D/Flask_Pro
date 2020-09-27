@@ -15,9 +15,7 @@ class RegisterForm(Form):
 
 
 
-    # def validate_nickname(self,field):
-    #     if User.query.filter_by(nickname=field.data).first():
-    #         raise ValidationError('昵称已存在')
+   
     def validate_nickname(self,field):
         if User.query.filter_by(nickname=field.data).first():
             raise ValidationError('昵称已存在')
