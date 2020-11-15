@@ -18,14 +18,7 @@ def register():
         return redirect(url_for('web.login'))
     return render_template('auth/register.html',form=form)
 
-    # form = RegisterForm(request.form)#验证通过后form单元里的值与User是一样的
-    # if request.method == 'POST'and form.validate():
-    #     with db.auto_commit():
-    #         user = User()
-    #         user.set_attrs(form.data)
-    #         db.session.add(user)
-    #     return redirect(url_for('web.login'))
-    # return render_template('auth/register.html',form=form)
+
 
 
 #get是获取网页 post提交信息
@@ -43,18 +36,7 @@ def login():
         else:
             flash('账号不存在或密码错误')
     return render_template('auth/login.html',form=form)
-    # form = LoginForm(request.form)
-    # if form.validate() and request.method == 'POST':
-    #     user = User.query.filter_by(email=form.email.data).first()
-    #     if user and user.check_password(form.password.data):
-    #         login_user(user,remember=True)
-    #         next = request.args.get('next')
-    #         if not next or not next.startswith('/'):
-    #             return redirect(url_for('web.login'))
-    #          return redirect(next)
-    #     else:
-    #         flash('账号不存在或者密码错误')
-    # return render_template('auth/login.html',form=form)
+
 
 
 

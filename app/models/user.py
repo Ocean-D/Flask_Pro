@@ -123,11 +123,7 @@ class User(UserMixin,Base):
 
 
 
-    # def get_id(self):
-    # return self.id
-# @login_manager.user_loader
-# def get_user(uid):
-#     User.query.get(int(uid))#从查询集中返回的是用户对象
+
 @login_manager.user_loader
 def get_user(uid):
     return User.query.get(int(uid))

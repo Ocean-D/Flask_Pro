@@ -11,13 +11,7 @@ class BookViewModel():
         self.isbn = book['isbn']
         self.pubdate = book['pubdate']
         self.binding = book['binding']
-        # self.title = book['title']
-        # self.author = '、'.join(book['author'])
-        # self.publisher = book['publisher']
-        # self.price = book['price']
-        # self.image = book['image']
-        # self.summary = book['summary']
-        # self.pages = book['pages']
+
 
 
 
@@ -25,11 +19,6 @@ class BookViewModel():
     def intro(self):
         intros = filter(lambda x:True if x else False,[self.author,self.publisher,self.price])
         return '/'.join(intros)
-    # @property
-    # def intro(self):
-    #     intros = filter(lambda x: True if x else False,[self.author,self.publisher,self.price])
-    #
-    #     return '/'.join(intros)
 
 class BookCollection():
     def __init__(self):

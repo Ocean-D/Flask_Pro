@@ -66,21 +66,6 @@ def book_detail(isbn):
                            gifts=trade_gifts_model,
                            has_in_gifts=has_in_gifts,has_in_wishes=has_in_wishes)
 
-    # has_in_gifts = False
-    # has_in_wishes = False
-
-    # #取书籍的详情数据
-    # yushu_book=YuShuBook()
-    # yushu_book.search_by_isbn(isbn)
-    # book = BookViewModel(yushu_book.first)
-    # trade_gifts = Gift.query.filter_by(isbn=isbn,lauched=False).all()
-    # trade_wishes = Wish.query.filter_by(isbn=isbn，lauched=False).all()
-
-    # trade_gifts_model = TradeInfo(trade_gifts)
-    # trade_wishes_model = TradeInfo(trade_wishes)
-    #
-    # return render_template('book_detail.html',book=book,wishes=trade_wishes_model,
-    #                        gifts=trade_gifts_model,has_in_gifts=has_in_gifts,has_in_wishes=has_in_wishes)
 
 
 

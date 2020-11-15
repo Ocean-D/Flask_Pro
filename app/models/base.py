@@ -44,9 +44,3 @@ class  Base(db.Model):
 
     def delete(self):
         self.status = 0
-# class BaseQuery(_BaseQuery):
-#     def filter_by(self,**kwargs):
-#         if 'status' not in kwargs.keys():
-#             kwargs['status'] = 1
-#
-#         return super(BaseQuery,self).filter_by(**kwargs)

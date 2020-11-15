@@ -68,10 +68,3 @@ def redraw_from_wish(isbn):
 
 
 
-
-
-    # wish = Wish.query.filter_by(id=current_user.id,sbn=isbn).first_or_404()
-    # with db.auto_commit():
-    #     wish.delete()
-    # return redirect(url_for('web.my_wish'))
-

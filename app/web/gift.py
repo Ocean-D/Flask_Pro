@@ -40,23 +40,6 @@ def save_to_gifts(isbn):
         flash('这本书已添加到你的赠送清单或者已存在你的心愿清单,请不要重复添加')
     return redirect(url_for('web.book_detail',isbn=isbn))
 
-    # if current_user.can_save_to_list(isbn):
-    #     #事务回滚 rollback
-    #     try:
-    #         gift = Gift()
-    #         gift.isbn = isbn
-    #         gift.uid = current_user.id
-    #         gift.beans += current_app.config['BEANS_UPLODE_ONE_BOOK']
-    #         db.session.add(gift)
-    #         db.session.commit()
-    #     except Exception as e:
-    #         db.session.rollback()
-    #         raise e
-    #
-    # else:
-    #     flash('这本书已添加到你的赠送清单或者已存在你的心愿清单，请不要重复添加')
-    #
-    # return redirect(url_for('web.book_detail',isbn=isbn))
 
 
 

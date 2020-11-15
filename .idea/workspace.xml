@@ -2,105 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3191ac02-17d8-44a2-907e-29c87dab1a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/drift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/maoyan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/viwe_models/drift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/viwe_models/gift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/viwe_models/trade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/viwe_models/wish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fisher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fisher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/gift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/gift.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/wish.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/wish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/secure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/spider/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/spider/yushu_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/flat-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/flat-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/jquery.twbsPagination.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/jquery.twbsPagination.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/remodal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/remodal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/ui/bootstrap.min.1.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/ui/bootstrap.min.1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/ui/remodal-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/ui/remodal-default-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/3rd/ui/remodal.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/3rd/ui/remodal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/less/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/less/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/js/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/js/icheck.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/js/jquery.fs.selecter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/js/jquery.fs.selecter.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/scss/bootflat/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/bootflat/scss/bootflat/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-blue.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-blue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-gray.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-gray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-green.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-green.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-pink.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-pink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-purple.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-purple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-red.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-red.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-yellow.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker-yellow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/color-picker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/free-psd.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/free-psd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/getting-started.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/getting-started.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/js/jquery-1.10.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/js/jquery-1.10.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/bootflat/js/site.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/bootflat/js/site.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/css/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/css/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/img/icons/svg/ribbon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/img/icons/svg/ribbon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/js/flat-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/js/flat-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/js/flat-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/js/flat-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/js/vendor/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/js/vendor/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/dist/js/vendor/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/dist/js/vendor/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/docs/assets/js/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/docs/assets/js/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/img/icons/svg/ribbon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/img/icons/svg/ribbon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/js/radiocheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/js/radiocheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/clearfix.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/clearfix.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/gradients.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/gradients.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/hide-text.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/hide-text.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/image.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/image.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/vendor-prefixes.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/temp/flat/less/modules/navbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/temp/flat/less/modules/navbar.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/book_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/drift.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/drift.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/email/get_gift.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/email/get_gift.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/email/satisify_wish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/email/satisify_wish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/my_wish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/my_wish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/pending.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/viwe_models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/viwe_models/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/web/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/drift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/drift.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/web/gift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/gift.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/web/wish.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/wish.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/drift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="540">
               <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -141,88 +49,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viwe_models/drift.py">
+        <entry file="file://$PROJECT_DIR$/app/models/gift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viwe_models/book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viwe_models/gift.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="e#1#35#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/viwe_models/trade.py">
+        <entry file="file://$PROJECT_DIR$/app/models/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="412">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
-                <element signature="e#0#65#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fisher.py">
+        <entry file="file://$PROJECT_DIR$/app/models/wish.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <element signature="e#1#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/jinja2/environment.py">
+        <entry file="file://$PROJECT_DIR$/app/libs/email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="429" selection-start-line="429" selection-end-line="429" />
+            <state relative-caret-position="226">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/helper.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/httper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/forms/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-898">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask/app.py">
+        <entry file="file://$PROJECT_DIR$/app/forms/book.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="2448" selection-start-line="2448" selection-end-line="2448" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/sqlalchemy/orm/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47628">
-              <caret line="1797" column="8" selection-start-line="1797" selection-start-column="8" selection-end-line="1797" selection-end-column="8" />
+            <state relative-caret-position="432">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,11 +152,9 @@
         <option value="$PROJECT_DIR$/app/test/test5.py" />
         <option value="$PROJECT_DIR$/app/test/test7.py" />
         <option value="$PROJECT_DIR$/app/web/test8.py" />
-        <option value="$PROJECT_DIR$/app/viwe_models/book.py" />
         <option value="$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask_sqlalchemy/__init__.py" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/viwe_models/wish.py" />
-        <option value="$PROJECT_DIR$/app/models/book.py" />
         <option value="$PROJECT_DIR$/app/test/test9.py" />
         <option value="$PROJECT_DIR$/app/test/test8.py" />
         <option value="$PROJECT_DIR$/app/test/maoyan.py" />
@@ -269,39 +171,40 @@
         <option value="$PROJECT_DIR$/app/spider/yushu_book.py" />
         <option value="$PROJECT_DIR$/app/libs/email.py" />
         <option value="$PROJECT_DIR$/app/forms/auth.py" />
-        <option value="$PROJECT_DIR$/app/web/auth.py" />
         <option value="$PROJECT_DIR$/app/models/gift.py" />
         <option value="$PROJECT_DIR$/app/viwe_models/gift.py" />
         <option value="$PROJECT_DIR$/app/test/test11.py" />
         <option value="$PROJECT_DIR$/app/models/wish.py" />
         <option value="$PROJECT_DIR$/app/viwe_models/trade.py" />
-        <option value="$PROJECT_DIR$/app/web/book.py" />
         <option value="$PROJECT_DIR$/app/templates/book_detail.html" />
         <option value="$PROJECT_DIR$/app/models/drift.py" />
         <option value="$PROJECT_DIR$/app/forms/book.py" />
         <option value="$PROJECT_DIR$/app/templates/pending.html" />
         <option value="$PROJECT_DIR$/app/viwe_models/drift.py" />
-        <option value="$PROJECT_DIR$/app/web/gift.py" />
         <option value="$PROJECT_DIR$/app/setting.py" />
         <option value="$PROJECT_DIR$/app/web/main.py" />
         <option value="$PROJECT_DIR$/app/web/drift.py" />
-        <option value="$PROJECT_DIR$/app/web/wish.py" />
         <option value="$PROJECT_DIR$/app/test/test2.py" />
         <option value="$PROJECT_DIR$/app/test/test4.py" />
         <option value="$PROJECT_DIR$/app/test/test1.py" />
         <option value="$PROJECT_DIR$/app/templates/auth/register.html" />
         <option value="$PROJECT_DIR$/app/templates/auth/login.html" />
-        <option value="$PROJECT_DIR$/app/models/user.py" />
         <option value="$PROJECT_DIR$/app/web/__init__.py" />
+        <option value="$PROJECT_DIR$/app/web/book.py" />
+        <option value="$PROJECT_DIR$/app/web/auth.py" />
+        <option value="$PROJECT_DIR$/app/web/gift.py" />
+        <option value="$PROJECT_DIR$/app/web/wish.py" />
+        <option value="$PROJECT_DIR$/app/viwe_models/book.py" />
         <option value="$PROJECT_DIR$/app/models/base.py" />
+        <option value="$PROJECT_DIR$/app/models/book.py" />
+        <option value="$PROJECT_DIR$/app/models/user.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="40" />
+    <option name="width" value="1920" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -311,31 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fisher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fisher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fisher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fisher" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fisher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="fisher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Pipenv (fisher) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -347,6 +225,17 @@
               <item name="fisher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Ocean D\Desktop\fisher" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BookPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -594,11 +483,12 @@
       <workItem from="1589163822270" duration="4166000" />
       <workItem from="1589251135608" duration="6924000" />
       <workItem from="1589459414927" duration="1029000" />
+      <workItem from="1605431424534" duration="573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="724455000" />
+    <option name="totallyTimeSpent" value="725028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,10 +500,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.2863248" side_tool="true" weight="0.16823056" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.7136752" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7136752" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="2" sideWeight="0.5120226" weight="0.20643431" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
@@ -723,61 +612,6 @@
     <SUITE FILE_PATH="coverage/fisher$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1588212089336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/pending.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding>
-            <element signature="e#694#720#0#HTML" expanded="true" />
-            <element signature="e#3076#3100#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#1#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/wish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="e#178#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="422" selection-start-line="422" selection-end-line="422" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/wtforms/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -830,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask_login/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8694">
@@ -858,49 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ginger资料/project/f3otak/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <folding>
-            <element signature="e#94#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/drift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/gift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ginger资料/project/f3otak/base.py" />
     <entry file="file://$PROJECT_DIR$/app/templates/auth/forget_password.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -914,34 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/web/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/email/reset_password.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/secure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -984,60 +745,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/gift.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/jinja2/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="10989">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/sqlalchemy/orm/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47628">
+          <caret line="1797" column="8" selection-start-line="1797" selection-start-column="8" selection-end-line="1797" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="2448" selection-start-line="2448" selection-end-line="2448" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/secure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/book.py">
+    <entry file="file://$PROJECT_DIR$/app/web/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/wish.py">
+    <entry file="file://$PROJECT_DIR$/app/web/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="162">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
           <folding>
-            <element signature="e#1#37#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web/wish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web/drift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/viwe_models/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -1045,13 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1107">
           <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/viwe_models/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1067,31 +867,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/viwe_models/trade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="-135">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/viwe_models/wish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="466">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/sqlalchemy/orm/query.py">
+    <entry file="file://$PROJECT_DIR$/app/models/book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47628">
-          <caret line="1797" column="8" selection-start-line="1797" selection-start-column="8" selection-end-line="1797" selection-end-column="8" />
+        <state relative-caret-position="331">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/drift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="540">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -1099,24 +911,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fisher.py">
+    <entry file="file://$PROJECT_DIR$/app/models/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/jinja2/environment.py">
+    <entry file="file://$PROJECT_DIR$/app/models/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        <state relative-caret-position="412">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/fisher-ZmTeNxgY/Lib/site-packages/flask/app.py">
+    <entry file="file://$PROJECT_DIR$/app/models/wish.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="2448" selection-start-line="2448" selection-end-line="2448" />
+        <state relative-caret-position="594">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/helper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/httper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-898">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
